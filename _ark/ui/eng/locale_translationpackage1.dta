@@ -2080,9 +2080,9 @@
 (tour_band_select_your_band
    "SELECT YOUR BAND")
 (male
-   "male")
+   "masculine")
 (female
-   "female")
+   "feminine")
 (patch_select_select_art
    "Select Art")
 (options_gameplay_title

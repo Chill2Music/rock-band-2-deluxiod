@@ -849,7 +849,7 @@
 (newyork_arena_any "Make a Setlist")
 (newyork_arena2_any "Taking Requests")
 (rio_arena_legomara "Lego Endless Setlist")
-(tour_band_marathon_warning "Take a deep breath. Have a snack. Hit the bathroom. This is a long ass marathon with NO BREAKS. It ain't for the faint of heart. Are you really ready?")
+(tour_band_marathon_warning "I mean you do you but remember to bring a piss bottle and shit bucket with you. Now are you ready to do this shit?")
 (free_camera
    "Toggle Free Cam")
 
@@ -1095,11 +1095,11 @@
 (prefab_drum15 "Thirteen")
 (prefab_drum16
    "Deja Dupree")
-(prefab_drum17 "Chuck")
+(prefab_drum17 "Blake Shadowz")
 
 (prefab_guitar0
    "Dan Coulthard")
-(prefab_guitar1 "Makenna Block")
+(prefab_guitar1 "Makenna Williams")
 (prefab_guitar2 "Yammy Flores")
 (prefab_guitar3 "Big Boy")
 (prefab_guitar4 "Dude")
@@ -1112,7 +1112,7 @@
    "Ol' Smokey")
 (prefab_guitar10 "Chris Cook")
 (prefab_guitar11 "Amy Valentine")
-(prefab_guitar12 "Jimmy Kurtson")
+(prefab_guitar12 "Kurt Cobain")
 (prefab_guitar13 "Summer Samson")
 (prefab_guitar14 "Toby Turner")
 (prefab_guitar15
@@ -1140,13 +1140,19 @@
    "The Duke of Gravity")
 (prefab_guitar33 "Raquelle Jihiman")
 (prefab_guitar34 "Dan LaMona")
+(prefab_guitar37 "Dawson Blake")
+(prefab_guitar38 "Chill")
+(prefab_guitar39 "Kimberley Monroe")
+(prefab_guitar40 "Helena Stevens")
+(prefab_guitar42 "Lumen UwU")
+(prefab_drum21 "Jose Vis")
    
    
 (prefab_vocals0 "Jeremy Kitty")
 (prefab_vocals1 "Brett Uniqua")
 (prefab_vocals2 "Rachel Harmony")
 (prefab_vocals3 "Blinky")
-(prefab_vocals4 "Kennedy")
+(prefab_vocals4 "Kari Shadows")
 (prefab_vocals5
    "Jordan Jackson")
 (prefab_vocals6
@@ -1171,6 +1177,8 @@
 (prefab_vocals20
    "Penelope McQueen")
 (prefab_vocals21 "Josh Price")
+(prefab_vocals22 "Anth")
+(prefab_vocals23 "Annai Renae")
 
 
 ;; Lego Trivia

@@ -1031,8 +1031,12 @@
    "Use this if you are playing on an e-kit")
 (mod_mididrum_obtain
    "(bug, should be available by default)")
+(mod_fakejuke
+   "Jukebox Mode")
+(mod_fakejuke_desc
+   "Play songs of your choosing for your performance mode video! Ambautkam!!")
 (choke_solo 
-   "Awesome Choke!")
+   "Choked")
 ;; Instrument UI
 (bodiddley "The Log")
 (bodiddley_desc "Les Paul's first solidbody guitar, built in 1941, was called \qThe Log,\q due to its impractical weight and crude construction. This guitar, on the other hand, is an actual log.")

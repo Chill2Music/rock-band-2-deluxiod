@@ -2,3 +2,4 @@
 personal/init.dta
 _build/ps3/USRDIR/gen/patch_ps3.hdr
 _build/ps3/USRDIR/gen/patch_ps3_0.ark
+*.milo_ps3

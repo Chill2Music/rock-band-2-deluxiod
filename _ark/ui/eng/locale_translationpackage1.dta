@@ -25,7 +25,7 @@
 (main_extras
    "EXTRAS")
 (main_store
-   "TWEAKS")
+   "TWEAKS") ;was "MUSIC STORE", fuck that lmao
 (qp_solo
    "solo quickplay")
 (qp_coop
@@ -255,7 +255,7 @@
 (helpbar_show_gamercard
    "View gamer card")
 (disk_ejected
-   "Did you just eject your Rock Band 2 disc? What the fuck is wrong with you? Put it back in.")
+   "The Rock Band 2 disc has been ejected. Please reinsert the disc to continue.")
 (disk_error
    "A Disc Read Error has been encountered. This disc is bad or dirty, please try cleaning the disc to continue.")
 #ifdef HX_PS3
@@ -264,14 +264,14 @@
 (attract_press_start
    " ")
 (matchmaking_pressstart
-   "Lets do this shit and rock out! Press START to continue")
+   "Press START button to Continue")
 #else
 (shell_trueskill_ranking
    "TrueSkill<sup>TM</sup> Rank")
 (attract_press_start
    " ")
 (matchmaking_pressstart
-   "Lets do this shit and rock out! Press START to continue")
+   "Press Start to Continue")
 #endif
 #ifdef HX_WII
 (attract_press_start
@@ -285,18 +285,18 @@
    "Next Song")
 #ifdef HX_PS3
 (mics_changed_desc
-   "Idiot, your microphone disconnected from your GayStation 3! Plug a USB Microphone and try again.")
+   "A microphone has been disconnected from your system! Please test to check that your microphone works before continuing.")
 #else
 #ifdef HX_XBOX
 (mics_changed_desc
-   "Idiot, your microphone disconnected from your Gaybox 369! Plug a USB Microphone and try again.")
+   "A microphone has been disconnected from the Xbox 360 console! Please test to check that your microphone works before continuing.")
 #else
 #ifdef HX_WII
 (mics_changed_desc
-   "Idiot, your Logaytech Microphone disconnected! Plug a USB Microphone and try again.")
+   "A Logitech USB microphone has been disconnected! Please reconnect the Logitech USB microphone to the USB connector before continuing.")
 #else
 (mics_changed_desc
-   "Idiot, your microphone disconnected! Plug a USB Microphone and try again.")
+   "A microphone has been disconnected! Please test to check that your microphone works before continuing.")
 #endif
 #endif
 #endif
@@ -343,7 +343,7 @@
 (month_december
    "December")
 (shell_waiting_for_leader
-   "Your leader is doing something, be patient...")
+   "Waiting for Leader...")
 (ending-bonus
    "Ending Bonus")
 (shell_no_patch
@@ -363,9 +363,9 @@
 (tour_random_song
    "(Random Song)")
 (shell_network_busy
-   "Connecting with the Rock Central server...")
+   "Communicating with the Rock Central server...")
 (error_confirm_remote_exit
-   "You sure you wanna leave? Your score is gonna be gone, you know.")
+   "Are you sure you want to leave the current session?")
 (charcreator_full_profile_fmt
    "You already own the maximum of %d characters.  If you want to make a new character, you'll have to delete an old one first.")
 (charcreator_no_owner
@@ -387,11 +387,11 @@
    "The name \q%s\q is not allowed for you to use.  You can use this name locally, but it will not be visible on Xbox LIVE until it is changed.")
 #endif
 (shell_charcreator_no_name
-   "Dude, give your character a name before you can proceed!")
+   "You must name your character before it can be created.")
 (shell_charcreator_confirm
-   "You sure this is the character you wanted?")
+   "Are you sure you want to create this character?")
 (shell_charcreator_cancel
-   "You really sure you wanna abandon your character?")
+   "Are you sure you want to abandon this character?")
 (shell_eyebrow_color
    "Choose Color")
 (shell_hair_salon
@@ -403,9 +403,9 @@
 (tattoo_right_arm
    "Right Arm")
 (shell_chardelete_cancel
-   "When you delete this character, you take their life. You sure you wanna get rid of it?")
+   "Are you sure you want to delete this character?")
 (shell_char_options_title
-   "What are you gonna do with this character?")
+   "Do what to this character?")
 (shell_char_rename
    "Rename")
 (shell_char_delete
@@ -413,9 +413,9 @@
 (shell_char_leave_band
    "Leave Band")
 (shell_char_name_not_unique
-   "Can't have doubles, you know; Change your name!")
+   "You already have a character who goes by that name! Please choose another name.")
 (shell_bandquit_cancel
-   "Are you really gonna leave your bandmates like that?")
+   "Are you sure you want to quit this band?")
 (shell_band_options_title
    "Do what to this band?")
 (shell_band_rename
@@ -425,17 +425,17 @@
 (shell_band_remove_char
    "Remove Member")
 (shell_band_name_not_unique
-   "Seriously? Make another name, you already have that...")
+   "You already have a band with that name! Please choose another name.")
 (shell_banddelete_cancel
-   "Wow dude, are you just gonna disband your band like that?")
+   "Are you sure you want to delete this band?")
 (shell_bandremove_cancel
-   "You sure you want to fire their ass?")
+   "Are you sure you want to remove this member?")
 (shell_band_remove_character
    "Remove Character")
 (shell_change_profile_warning
    "A user sign-in change has caused the game to lose ownership of saves and achievements. As a result, the game will be restarted.")
 (invalid_song
-   "ONE OF YOUR BAND MEMBERS ARE POOR!")
+   "You can't play this song until all players in your session purchase it!")
 (3_star
    "***__")
 (4_star
@@ -465,11 +465,11 @@
 (award_band_savior
    "Band Savior")
 (award_top_performer
-   "Best Performer")
+   "Top Performer")
 (award_professional_streaker
    "Longest Streak")
 (award_spirited_survivor
-   "You Almost Suck")
+   "Spirited Survivor")
 (award_unconscious
    "Unconscious")
 (award_serious_skills
@@ -477,21 +477,21 @@
 (award_flawless
    "Flawless")
 (award_hoarder
-   "Energy Whore")
+   "Energy Hoarder")
 (award_real_bassist
    "Authentic Strummer")
 (award_most_gutsy
-   "Most Ballsy")
+   "Most Gutsy")
 (award_serious_style_points
    "Most Energy")
 (award_awesome_solo
-   "That Was an Alright Solo")
+   "Awesome Solo")
 (award_legend_solo
-   "Savage Solo")
+   "Solo Legend")
 (award_blissful_groove
    "Steady Eddie")
 (award_boring
-   "Did Nothing Special")
+   " ")
 (attitude_banger
    "Metal")
 (attitude_dramatic
@@ -545,7 +545,7 @@
 (Controller
    "Controller")
 (CONTROLLER_LOSS
-   "IDIOT IS LOSING CONTROL")
+   "YOU'RE OUT OF CONTROL!")
 (controller_loss_msg
    "Please reconnect %s controller(s).")
 (controller_possessive
@@ -581,7 +581,7 @@
 (eg_streak_format
    "%i Note Streak!")
 (endgame_winner
-   "FLAWLESS FINALE")
+   "WINNER!")
 (event_n_of_n
    "Song %d of %d")
 (exit
@@ -593,13 +593,13 @@
 (grooving_score
    "%0.0f%%")
 (h2h_narrow_win
-   "SO CLOSE TO DEFEAT!")
+   "NARROW VICTORY")
 (h2h_win
-   "YOU KICKED THEIR ASS!")
+   "WINNER!")
 (h2h_big_win
-   "OH THEY'RE DEFINITELY SHITTING THEIR PANTS!")
+   "BIG WIN!")
 (h2h_huge_win
-   "NICE JOB MURDERING THEIR ASS!")
+   "BLOWOUT!")
 (kick2
    "2 lane")
 (kick3
@@ -639,7 +639,7 @@
 (pause_quit
    "QUIT")
 (main_cheat_msg_fmt
-   "GAME MODIFIER UNLOCKED: %s")
+   "MODIFIER UNLOCKED: %s")
 (me_notes_hit
    "Notes Hit")
 (me_percent_format
@@ -725,9 +725,9 @@
 (Song
    "Song")
 (SONG_COMPLETE
-   "YOU KICKED ASS!")
+   "SONG COMPLETE!")
 (song_failed
-   "YOU SUCK!")
+   "SONG FAILED!")
 (song_select
    "Select Song")
 (song_select_play_all
@@ -753,7 +753,7 @@
 (Venue
    "VENUE")
 (WAITING
-   "HOLD ON....")
+   "WAITING....")
 (win_congrats
    "Congratulations!")
 (with
@@ -862,7 +862,7 @@
 (tour_band_sel_load_active
    "Controller Active")
 (perfect_solo
-   "Orgasmic Solo!")
+   "Perfect Solo!")
 (awesome_solo
    "Awesome Solo!")
 (great_solo
@@ -870,35 +870,35 @@
 (solid_solo
    "Good Solo!")
 (okay_solo
-   "Solid Solo!")
+   "Solid Solo")
 (nice_solo
-   "Turned Me On!")
+   "Nice")
 (bad_solo
-   "MID Solo")
+   "Okay Solo")
 (failed_solo
-   "Ok, Horrible.")
+   "Messy Solo")
 (bass_streak
    "Bass Groove")
 (end_game
-   "STRUM YOU BITCH!")
+   "Keep Playing!")
 (end_game_vox
-   "KEEP SCREAMING!")
+   "Keep Singing!")
 (vox_rating_0
-   "EARRAPED")
+   "MESSY")
 (vox_rating_1
-   "EW")
+   "WEAK")
 (vox_rating_2
-   "MID")
+   "OKAY")
 (vox_rating_3
-   "SWEET")
+   "STRONG")
 (vox_rating_4
-   "ROCKING!")
+   "AWESOME")
 (tamb_rating_1
-   "HORRIBLE")
+   "IDLE")
 (tamb_rating_2
-   "GROSS")
+   "MESSY")
 (tamb_rating_3
-   "MID")
+   "WEAK")
 (tamb_rating_4
    "OKAY")
 (tamb_rating_5
@@ -941,7 +941,7 @@
    "Xbox LIVE ENABLED")
 #endif
 (matchmaker_loading
-   "Setting up your stage...")
+   "Loading...")
 (matchmaker_player
    "Player")
 (matchmaker_search_band
@@ -1047,7 +1047,7 @@
 (char_provider_prefabs
    "SESSION MUSICIANS")
 (char_provider_prefab_random
-   "(Can't Decide?)")
+   "(random)")
 (band_user_provider_empty
    "[none]")
 (track_guitar
@@ -1059,7 +1059,7 @@
 (track_vocals
    "Vocals")
 (upload_uploading
-   "Connecting to Rock Central server...")
+   "Communicating with the Rock Central server...")
 (upload_error_start_single
    "There was an error during the upload to Rock Central.")
 (upload_error_start_fmt
@@ -1077,9 +1077,9 @@
 (upload_error_server_down
    "The Rock Central server appears to be unavailable.  Rock Band 2 will attempt to upload again automatically during a later autosave.")
 (mc_auto_warning
-   "So um to let you know, your file is being autosaved. So please don't be an idiot and turn off the PS3 while it's saving. Thank you!")
+   "This game saves data automatically at certain points. While the HDD access indicator is flashing, data is being saved. Do not switch off the power when the HDD access indicator is flashing.")
 (mc_autosave_disabled
-   "HEY! Autosave has been disabled.  In order to re-enable it, you need to save or load your game using the \qManage Data\q menu under the \qOptions\q menu.")
+   "Autosave has been disabled.  In order to re-enable it, you need to save or load your game using the \qManage Data\q menu under the \qOptions\q menu.")
 (mc_load_device_missing
    "The selected storage device has become unavailable.  In order to load, please select a storage device.")
 (mc_auto_load_start
@@ -1093,9 +1093,9 @@
 (mc_auto_load_corrupt
    "Loading saved game failed because the save file is corrupt.")
 (mc_auto_load_obsolete_version
-   "Loading saved game failed because the save file version is old as fuck.  Would you like to bomb your old save and make a new one?")
+   "Loading saved game failed because the save file version is obsolete.  Would you like to destroy this file and replace it with a new, empty one?")
 (mc_auto_load_newer_version
-   "Loading saved game failed because the save file was created with a superior version of the game.  Would you like to bomb your old save and make a new one?")
+   "Loading saved game failed because the save file was created with a newer version of the game.  Would you like to destroy this file and replace it with a new, empty one?")
 (mc_save_device_missing
    "The storage device used for saving has been removed since the last save.  If you wish to save your progress, you will need to select another storage device.  If you cancel, you may play the game, but will be unable to save your progress.")
 (mc_save_preparing
@@ -1213,21 +1213,21 @@
    "There is no ethernet cable connected.")
 #endif
 (error_lone_h2h
-   "The other player rage quited.")
+   "The other player has left.")
 (error_lone_h2h_win
-   "Yo, so good news. Your opponent might've broke his controller and called it quits, Nice job at shitting on them!")
+   "Your opponent has left the session, conceding defeat. Congratulations on your easy victory!")
 (error_no_leader
-   "Leader decided to go bye bye!")
+   "The leader has left.")
 (error_kicked
-   "You got kicked! They're a bunch of cunts, right?")
+   "You have been kicked.")
 (error_lost_server
-   "Rock Central server decided to take a shit, try again.")
+   "You have lost contact with the Rock Central server.")
 #ifdef HX_PS3
 (confirm_forfeit
-   "Are you gonna quit and fucking cry because someone just beat your ass? If you do, remember that you're a bitch and can't even win anything in life.")
+   "Are you sure you want to forfeit?  If you leave, this match will be recorded as a loss. Be careful, this is a very uncool thing to do.")
 #else
 (confirm_forfeit
-   "Are you gonna quit and fucking cry because someone just beat your ass? If you do, remember that you're a bitch and can't even win anything in life.")
+   "Are you sure you want to forfeit?  If you leave, this match will be recorded as a loss, and your opponent will have the option to record negative feedback against you.")
 #endif
 (error_lost_song_data
    "The song data you were accessing has become unavailable, and the game cannot proceed without it. Your game session has restarted.")
@@ -1266,10 +1266,10 @@
    "Please reconnect %s's %s controller as controller #%i.  Selecting \qReturn to Main Menu\q will result in loss of unsaved progress.")
 #ifdef HX_PS3
 (error_cheating
-   "Sorry, you have a game modifier activated that disables online play. You cannot access any online features until the game modifier is disabled.")
+   "Sorry, you have a modifier activated that disables online play. You cannot access any online features until the modifier is disabled.")
 #else
 (error_cheating
-   "Sorry, you have a game modifier activated that disables Xbox LIVE play. You cannot access any Xbox LIVE features until the game modifier is disabled.")
+   "Sorry, you have a modifier activated that disables Xbox LIVE play. You cannot access any Xbox LIVE features until the modifier is disabled.")
 #endif
 #ifdef HX_PS3
 (leaderboards_not_available_connection
@@ -1299,8 +1299,22 @@
    "Your website code is: %s")
 (motd_no_rock_central
    "Attempting to connect to Rock Central...")
+#ifdef HX_XBOX
 (motd_online_disabled
-   "Turn off your fucking modifiers you cheating cunt!")
+   "Xbox LIVE is currently disabled due to modifiers.")
+#else
+(motd_online_disabled
+   "Online is currently disabled due to modifiers.")
+#endif
+#ifdef HX_XBOX
+(motd_overshell_tip
+   "Press the BACK button twice on any menu to change modifiers, textures, speeds, and more on the fly.")
+#else
+(motd_overshell_tip
+   "Press the SELECT button twice on any menu to change modifiers, textures, speeds, and more on the fly.")
+#endif
+(motd_nosaving
+   "Saving is currently disabled due to modifiers.")
 (privileges_restricted_strict
    "Connecting to the Rock Central server is disabled on your PLAYSTATION<sup>®</sup>Network account due to parental control restrictions.\n\nYou are not allowed to access this mode.")
 (privileges_restricted_lenient
@@ -1497,7 +1511,7 @@
 (band_profile_vk_motto_desc
    "Enter a quote for your band")
 (band_profile_default_motto
-   "[You have no quotes, boring...]")
+   "[No quote entered]")
 (band_profile_formed_date_fmt
    "Formed on %d %s, %d")
 (band_profile_hometown_fmt
@@ -1515,7 +1529,7 @@
 (tour_profile_motto
    "Quote")
 (tour_profile_topsongs
-   "Best Songs")
+   "Top Songs")
 (generic_tier1
    "Warmup")
 (generic_tier2
@@ -1602,7 +1616,7 @@
 (select_variant
    "Select Style")
 (sop_not_enough_money
-   "You're poor! Get more Money!")
+   "You don't have enough money to buy this!")
 (h2h_pro
    "Score Duel")
 (h2h_normal
@@ -1699,11 +1713,11 @@
 (passive_message_demoted
    "%s has been removed from the band's lineup.")
 (passive_message_member_join_failed
-   "Hey, someone wants to join your band")
+   "A member of your band wants to play!")
 (passive_message_new_remote_user
-   "%s has joined your session")
+   "%s has entered")
 (passive_message_remote_user_left
-   "%s has left. Damn sorry for your loss.")
+   "%s has left")
 #ifdef HX_PS3
 (how_to_microphone
    "Microphone & wireless controller")
@@ -1924,9 +1938,9 @@
 (shop_hb_select
    "Select")
 (shop_not_enough_money
-   "You're broke, like literally. Go and rock out then come back.")
+   "You can't afford that yet. You're a musician, remember? You need more money to purchase this item.")
 (shop_already_selected
-   "Do you have dementia? You already have that!")
+   "Uh, that's what you have NOW!")
 (seldiff_guitar
    "GUITAR")
 (seldiff_bass
@@ -1938,9 +1952,9 @@
 ('CHOOSE DIFFICULTY'
    "CHOOSE DIFFICULTY")
 (shiny_loading_text
-   "SETTING UP YOUR STAGE")
+   "LOADING")
 (meta_loading_text
-   "HOLD UP SETTING UP FOR YOUR GIG...")
+   "LOADING . . .")
 (matchmaking_loading
    "Loading")
 (matchmaker_female
@@ -2012,13 +2026,13 @@
 (RETRY
    "RETRY")
 ('SONG FAILED'
-   "YOU SUCK")
+   "SONG FAILED")
 (PAUSED
    "PAUSED")
 (RESUME
    "RESUME")
 ('EVENT FAILED'
-   "FAILED EVENT")
+   "EVENT FAILED")
 (training_menu_tutorials
    "TUTORIALS")
 (training_menu_practice
@@ -2086,9 +2100,9 @@
 (makeup
    "Make-Up")
 (failed_feedback_failed
-   "You Fucking Suck!")
+   "Failed!")
 (failed_feedback_saved
-   "Don't fuck up!")
+   "Saved!")
 (PHYSIQUE
    "PHYSIQUE")
 (SKIN
@@ -2164,9 +2178,9 @@
 (tour_band_loading
    "Loading")
 (failed
-   "YOU FUCKING SUCK")
+   "FAILED")
 (savior
-   "DONT FUCK UP")
+   "SAVIOR")
 (charcreator_appearence_return
    "Return")
 (select_speed
@@ -2408,7 +2422,7 @@
 (mod_newvenuesonly_obtain
    "")
 (modifer_mode_denied
-   "Turn off your fucking modifiers you cheating cunt!")
+   "This mode is disabled due to modifiers.")
 (mod_doublespeed
    "Breakneck Speed")
 (mod_doublespeed_desc
@@ -2440,7 +2454,7 @@
 (finding_presence_cannot_connect
    "Can't connect to the session.")
 (finding_presence_no_room
-   "Sorry man, they're already a full band.")
+   "This session is full.")
 (finding_presence_wrong_mode
    "This session is playing a different game mode than you.")
 (finding_presence_no_joining_allowed
@@ -2492,7 +2506,7 @@
 (endgame_percent_complete
    "Percent Complete")
 (endgame_song_failed
-   "YOU SUCK")
+   "Song Failed")
 (leaderboards_get_better
    "You Need to Do Better To Show Up Here, Y'all")
 (outfit_description
@@ -2502,7 +2516,7 @@
 (patchcreator_select_sticker
    "Select Sticker")
 (fan_limitreached
-   "Too many people simping over you!")
+   "You're too awesome!")
 (manage_staff
    "MANAGE STAFF")
 (matchmaking_pick
@@ -10239,13 +10253,13 @@
    "If you want to sing, you need both an Xbox 360 Controller and a microphone plugged in.")
 #endif
 (loading_help57
-   "Having a hard time playing Easy? Turn on the No Fail game modifier from the Extras menu!")
+   "Having a hard time playing Easy? Turn on the No Fail modifier from the Deluxe Settings menu!")
 (loading_help58
    "The clothes that you buy or win get put neatly into the \qMy Closet\q section -- it's way better than throwing them in a heap on the floor.")
 (loading_help59
-   "Having trouble winning over the crowd? Choose the \qNo Fail\q Game Modifier from the Extras menu!")
+   "Having trouble winning over the crowd? Choose the \qNo Fail\q Modifier from the Deluxe Settings menu!")
 (loading_help60
-   "Want to listen to your music? Check out Jukebox Mode in the Extras section.")
+   "Want to listen to your music? Check out Jukebox Mode in the Deluxe Settings menu.")
 (loading_help61
    "Battle of the Bands events are updated daily! Make sure you check back often to compete in the latest battles.")
 (loading_help62
@@ -10253,7 +10267,7 @@
 (loading_help63
    "You can pause any Tour Challenge you're playing by choosing \qSave and Quit\q from the pause menu. The next time you play this challenge, you'll resume from where you left off!")
 (loading_help64
-   "You can change your game experience with Game Modifiers, found in the Extras menu.")
+   "You can change your game experience with Modifiers, Track Options, and Speeds, found in the Deluxe Settings menu.")
 (loading_help65
    "Want to improve your freeform fills? Check out the Fill Trainer section of the Drum Trainer.")
 (loading_help66
@@ -10268,9 +10282,9 @@
 (loading_help68
    "Do you feel like you're missing notes when you shouldn't be? Try calibrating from the Options menu.")
 (loading_help69
-   "Hey parents! Are your kids failing out of songs and getting sad? Hey kids! Are your parents failing out of songs and ruining your fun? Choose the \qNo Fail\q game modifier from the Extras menu!")
+   "Hey parents! Are your kids failing out of songs and getting sad? Hey kids! Are your parents failing out of songs and ruining your fun? Choose the \qNo Fail\q modifier from the Deluxe Settings menu!")
 (loading_help70
-   "Would you rather just scream nonsense and wail randomly on the drums than try to get a good score? You are not alone! Choose the \qNo Fail\q game modifier from the Extras menu.")
+   "Would you rather just scream nonsense and wail randomly on the drums than try to get a good score? You are not alone! Choose the \qNo Fail\q modifier from the Deluxe Settings menu.")
 (loading_trivia1
    "Audience member Scot Halpin took the stage as drummer for The Who for three songs at a concert in 1973 after drummer Keith Moon passed out mid-gig.")
 (loading_trivia2
@@ -12220,8 +12234,8 @@
    "Rolling Stone Rock Immortals Challenge")
 (shanghai_arena_allmara
    "The Endless Setlist 2")
-(sydney_arena_acdclive
-   "AC/DC Live Setlist")
+(sydney_arena_productionmara
+   "Production Favorites")
 (sydney_arena_basslegend
    "Bass Legend")
 (rio_arena_seventiesmara
@@ -14000,7 +14014,7 @@
 (calibrate_manual_heading
    "Set Lag Compensation")
 (calibration_finished
-   "Congratulations, your TV is now calibrated to play Rock Band 2! Come back at anytime if you start to suck some ass!")
+   "Congratulations, your TV is now calibrated to play Rock Band 2! Come back at any time if you feel like your playing is out of sync with the TV.")
 (CALIBRATION_OPTIONS
    "CALIBRATION OPTIONS DEBUG")
 (calibration_options
@@ -14034,9 +14048,9 @@
 (comp_new_match
    "New Match")
 (confirm_quit
-   "Are you really gonna quit right now?")
+   "You will lose all unsaved progress if you continue. Are you sure you want to continue?")
 (confirm_tutorial_quit
-   "If you quit now, you'll never get bitches. Are you sure?")
+   "If you continue, current progress on this tutorial will be lost. Do you wish to continue?")
 (CONGRATULATIONS
    "CONGRATULATIONS")
 (console_settings
@@ -14050,7 +14064,7 @@
 (delete_art
    "Delete Art")
 (Disconnected!
-   "This Idiot Left!")
+   "Disconnected!")
 (dolby
    "Dolby<sup>®</sup> Digital")
 (doubly
@@ -14132,7 +14146,7 @@
 (facehair
    "Facial Hair")
 (Failed!
-   "You Suck!")
+   "Failed!")
 (finding_players_continue
    "Continue Without Leader")
 (finding_players_retry
@@ -14142,7 +14156,7 @@
 (fx_chorus
    "Chorus")
 (fx_distortion
-   "Distortion")
+   "DISTORTION")
 (fx_echo
    "Echo")
 (fx_empty
@@ -14244,9 +14258,9 @@
 (menu_drumtrainer
    "Drum Trainer")
 (mics_changed_header
-   "Fucking Speak up!")
+   "Can't hear you!")
 (mics_changed_test
-   "Fucking Speak up!")
+   "Can't hear you!")
 (mics_player_name00
    "-")
 (mics_player_name01
@@ -14272,7 +14286,7 @@
 (next
    "Next")
 (no_controller
-   "Where's your fucking controller?")
+   "YOU ARE OUT OF CONTROL!")
 (ok
    "OK")
 (OK
@@ -14470,7 +14484,7 @@
 (weight
    "Weight")
 (WINNER!
-   "YOU BEAT THEIR ASS!")
+   "WINNER!")
 (x_of_y
    "%d /%d")
 (you_each_won
